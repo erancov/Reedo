@@ -1,0 +1,21 @@
+{
+  "name": "Reedo",
+  "version": "1.0.0",
+  "description": "Reedo, a basic hyperscript library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erancov/Reedo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erancov/Reedo/issues"
+  },
+  "homepage": "https://github.com/erancov/Reedo#readme"
+}
