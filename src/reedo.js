@@ -8,9 +8,12 @@
 
 
 // reedo main class
-class Reedo {
+ class Reedo {
+     constructor() {
 
-    createElement(tagName, { attrs = {}, children = [] } = {}){
+     }
+
+    createElement(tagName, { props = {}, children = [] } = {}){
         return {
             tagName,
             props,
@@ -19,5 +22,4 @@ class Reedo {
     }
 }
 
-
-module.export = Reedo;
+export default new Reedo();

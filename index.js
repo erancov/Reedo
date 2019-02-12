@@ -2,7 +2,12 @@ import Reedo from './src/reedo';
 
 class App {
     render(){
-        let el = Reedo.createElement('div', {className: 'container'}, ['Hello from v-dom']);
+        let el = Reedo.createElement('div', {
+       props: {className: 'container'},
+        children: ['Hello from v-dom']
+    });
+
+
         console.log('el',el)
     }
 }
