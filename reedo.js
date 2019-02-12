@@ -1,8 +1,9 @@
 /*
 @Name: Reedo
-@Author: Rancov Emanuel Miroslav
+@Version: 1.0
 @Description: Reedo, a basic hyperscript library
-@Author URI: github:
+@Author: Rancov Emanuel Miroslav
+@Author URI: https://github.com/erancov/Reedo
 */
 
 // reedo main class
