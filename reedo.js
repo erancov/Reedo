@@ -8,7 +8,7 @@
 // reedo main class
 class Reedo{
 
-    createElement(el, ...props, ){
+    createElement(el, ...props, child){
 
     }
 }
