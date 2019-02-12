@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/erancov/Reedo/issues"
   },
-  "homepage": "https://github.com/erancov/Reedo#readme"
+  "homepage": "https://github.com/erancov/Reedo#readme",
+  "devDependencies": {
+    "typescript": "^3.3.3"
+  }
 }
