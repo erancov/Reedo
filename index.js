@@ -1,18 +1,34 @@
 import Reedo from './src/reedo';
 
+const ListItems = props => {  
+    return props.items.map(item =>{
+       return [Reedo.createElement('li', {className:'item'}, [item])]
+    })
+}
+
 class App {
+    constructor(){
+        this.state = {
+            items:['red', 'blue', 'green']
+        }
+    }
+
     render(){
-        const p =  Reedo.createElement('p', {
-            props: {className: 'text-center',style:'color:red' },
-             children: ['Hello from v-dom']
-         });
+       return(
+            Reedo.createElement('div', {className:'container'}, [
+                Reedo.createElement('ul',{className:'list-items'}, [
 
-        let el = Reedo.createElement('div', {
-       props: {className: 'container', id:"manu"},
-        children: [p]
-    });
+                    Reedo.createElement('li',null, [
 
-        return el;
+                        'Link1'
+                    ]),
+                    Reedo.createElement('li',{id:'1'}, [
+
+                        'Link2'
+                    ])
+                ])
+            ])
+       );
     }
 }
 
